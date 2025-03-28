@@ -1,7 +1,7 @@
 import telebot
 import webbrowser
 
-bot = telebot.TeleBot('7107134984:AAHp_9daxp7FGgY5LgXTPTI6ZfK2ymqSc44')
+bot = telebot.TeleBot('')
 
 
 @bot.message_handler(commands=['site', 'website'])
