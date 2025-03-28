@@ -184,3 +184,4 @@ cython_debug/
 
 #Custom
 *lesson_6/config.py
+./lesson_6/config.py
