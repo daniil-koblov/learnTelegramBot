@@ -1,7 +1,8 @@
 import telebot
 import webbrowser
+from lesson_6.config import TOKEN
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot(TOKEN)
 
 
 @bot.message_handler(commands=['site', 'website'])

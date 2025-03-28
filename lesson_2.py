@@ -1,7 +1,8 @@
 import telebot
 from telebot import types
+from lesson_6.config import TOKEN
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot(TOKEN)
 
 
 @bot.message_handler(commands=['start'])

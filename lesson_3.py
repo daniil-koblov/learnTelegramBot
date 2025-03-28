@@ -1,9 +1,10 @@
 import telebot
 from telebot import types
 import sqlite3
+from lesson_6.config import TOKEN
 
 
-bot = telebot.TeleBot('')
+bot = telebot.TeleBot(TOKEN)
 name = None
 
 

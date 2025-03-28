@@ -1,9 +1,10 @@
 import telebot
 import requests
 import json
+from lesson_6.config import TOKEN, TOKENOWM
 
-bot = telebot.TeleBot('')
-API = ''
+bot = telebot.TeleBot(TOKEN)
+API = TOKENOWM
 
 
 @bot.message_handler(commands=['start'])
