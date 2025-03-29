@@ -1,7 +1,7 @@
 import telebot
 import requests
 import json
-from lesson_6.config import TOKEN, TOKENOWM
+from tokens import TOKEN, TOKENOWM
 
 bot = telebot.TeleBot(TOKEN)
 API = TOKENOWM

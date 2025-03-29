@@ -1,7 +1,7 @@
 import telebot
 from currency_converter import CurrencyConverter
 from telebot import types
-from lesson_6.config import TOKEN
+from tokens import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
 currency = CurrencyConverter()

@@ -183,5 +183,5 @@ cython_debug/
 *.idea
 
 #Custom
-*lesson_6/config.py
-./lesson_6/config.py
+tokens.py
+

@@ -1,6 +1,6 @@
 import telebot
 import webbrowser
-from lesson_6.config import TOKEN
+from tokens import TOKEN
 
 bot = telebot.TeleBot(TOKEN)
 
