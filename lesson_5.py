@@ -1,9 +1,9 @@
 import telebot
 from currency_converter import CurrencyConverter
 from telebot import types
-from tokens import TOKEN
+from lesson_6.api_for_bot import BOT_TOKEN
 
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(BOT_TOKEN)
 currency = CurrencyConverter()
 amount = 0
 
